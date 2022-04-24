@@ -1,0 +1,101 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+header img{
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+header a{
+    color: seashell;
+    margin: 10px;
+}
+
+.mission{
+    background-image: url(./images/img-mission-background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.mission .container{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.tea{
+   width: 100%;
+   margin: 0;
+   display: flex;
+   justify-content: space-evenly;
+   flex-flow: row wrap;
+}
+
+.img-container img{
+    height: 200px;
+    width: 300px;
+}
+
+.location{
+    background-image: url(./images/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 50px;
+    height: 600px;
+}
+
+#location-title{
+    padding-top: 100px;
+}
+
+#location-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.container{
+    background-color: black;
+    width: 300px;
+    line-height: 50px;
+    margin: 15px 40px;
+}
+
+.info{
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
